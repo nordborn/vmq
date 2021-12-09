@@ -1,0 +1,4 @@
+[{<<"vmnesia">>,
+  {git,"https://github.com/nordborn/vmnesia",
+       {ref,"e6610721edb19d7185c75ad55ac9a81edc8ff39d"}},
+  0}].

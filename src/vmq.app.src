@@ -1,0 +1,17 @@
+{application, vmq,
+ [{description, "Simple MQ with persistence using Mnesia or GenServer"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {mod, {vmq_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    mnesia,
+    vmnesia
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
