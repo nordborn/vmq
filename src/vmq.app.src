@@ -1,6 +1,6 @@
 {application, vmq,
  [{description, "Simple MQ with persistence using Mnesia or GenServer"},
-  {vsn, "1.0.0"},
+  {vsn, "1.0.1"},
   {registered, []},
   {mod, {vmq_app, []}},
   {applications,
